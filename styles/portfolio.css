@@ -22,16 +22,21 @@
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    
 }
 /* header & navigation styles */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    /* margin: 50px 150px; */
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 nav ul{
     display: flex;
