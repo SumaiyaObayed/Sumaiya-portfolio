@@ -86,12 +86,12 @@ main{
 
 /* about section styles */
 .about{
-    margin-top: 130px;
+    margin-top: 60px;
     background: #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 50px;
     text-align: center;
-    
+    margin-bottom: 15px;
 
 }
 .section-title{
@@ -121,3 +121,40 @@ main{
     font-size: 20px;
     color: #474747;
 }
+/* what i do styles */
+.what{
+    margin-top: 30px;
+    /* background: yellow; */
+    border-radius: 10px;
+    padding: 70px 60px;
+    text-align: center;
+}
+.description{
+    color: red;
+    font-size: 18px;
+    margin-bottom: 70px;
+
+}
+
+.skills-container{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.skill{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+    
+}
+
